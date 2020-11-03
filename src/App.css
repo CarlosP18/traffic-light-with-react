@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+}
+.post{
+  width: 15px;
+  height: 70px;
+  background-color: black;
+  margin: 0 auto;
+  
+}
+.trafficLight{
+  width: 90px;
+  height: 220px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trafficLight #redLight {
+  background-color: red;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.trafficLight #yellowLight {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.trafficLight #greenLight {
+  background-color:green;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.glow {
+  box-shadow: 0px 0px 20px 10px yellow;
 }
